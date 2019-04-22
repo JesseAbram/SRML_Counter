@@ -1,5 +1,7 @@
 # Substrate Package
 
+For detailed insturctions go [here](https://docs.substrate.dev/docs/creating-a-custom-substrate-chain)
+
 A stable, known working version of the [Substrate Node Template](https://github.com/paritytech/substrate/tree/master/node-template) and [Substrate UI](https://github.com/paritytech/substrate-ui).
 
 # How to use it:

@@ -1,3 +1,54 @@
+# Demo instructions
+Dot dat demo
+
+Git clone https://github.com/JesseAbram/SRML_Counter.git
+
+Cd SRML_Counter
+
+Cd getset
+
+./build.sh
+             
+cargo build --release
+         
+./target/release/getset --dev
+
+to reset  purge-chain —dev
+
+just delete my UI file 
+
+substrate-ui-new getset
+
+
+Yarn install 
+
+Yarn run dev
+
+
+Go through your substrate code —> uncomment out the demo things
+
+Upgrade the runtime
+
+Runtime in console
+
+runtime.demo.count.then(console.log)
+
+post({sender: runtime.indices.ss58Decode('F7Hs'), call: calls.demo.incrememntValue(10)}).tie(console.log)
+
+post({sender: runtime.indices.ss58Decode('F7Hs'), call: calls.demo.decrementValue(3)}).tie(console.log)
+
+runtime.demo.count.then(console.log)
+
+
+
+
+
+
+
+
+
+
+
 # Substrate Package
 
 For detailed insturctions go [here](https://docs.substrate.dev/docs/creating-a-custom-substrate-chain)

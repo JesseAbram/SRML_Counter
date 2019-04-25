@@ -29,7 +29,7 @@ decl_module! {
 
           let Currentcount = Self::count();
 
-          let newCount = Currentcount.wrapping_add(value);
+          let newCount = Currentcount - value;
 
           <Count<T>>::put(newCount);
 
